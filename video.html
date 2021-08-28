@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Watch Now</title>
+<link rel="stylesheet" type="text/css" href="video.css">
+
+</head>
+
+<body >
+
+  <div class="overlay" id="joker" onclick='OFF()'>
+    <iframe class="youtube-video" width="600" height="300" src="https://www.youtube.com/embed/zAGVQLHvwOY" title="YouTube video player" frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+  </div>
+
+    <div class="logo">
+    <img src="https://i.ibb.co/r5krrdz/logo.png"/>
+  </div>
+
+  <div>
+      <img class="highlight" src="https://assets1.ignimgs.com/thumbs/userUploaded/2019/9/20/slcxsmer-1569024379043.jpeg">
+      <div class="content">
+      <h1>Watch Joker Now</h1>
+      <br>
+      <p>Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. 
+      Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a futile attempt to
+      feel like he's part of the world around him.
+      </p>
+
+      <button class="play" type="button" onclick="PLAY()">Play</button>
+      </div>
+  </div>
+
+	<div class="contain">
+  <div class="row">
+    <div class="row__inner">
+
+      <h3>Drama</h3>
+      <br>
+
+      <div class="tabs"> 
+      <div class="container">
+      <div class="tile" id="tab-1">
+          <img class="tile__img hide-sm" src="https://hatfulofhistory.files.wordpress.com/2015/08/o-peaky-blinders-facebook.jpg" alt="" 
+          onclick="openContent(event, 'PeakyBlinders')">
+      </div>
+
+      <div class="tile" id="tab-2">
+          <img class="tile__img hide-sm" src="https://pxwall.com/wp-content/uploads/2019/04/Vikings-Background.jpg" alt=""   
+          onclick="openContent(event, 'Vikings')">
+      </div>
+
+      <div class="tile" id="tab-3 hide-sm">
+          <img class="tile__img " src="https://www.whats-on-netflix.com/wp-content/uploads/2018/07/season-5-netflix-the-100-release.jpg" alt=""  
+          onclick="openContent(event, 'The100')">
+      </div>
+
+      <div class="tile" id="tab-4 hide-sm">
+          <img class="tile__img" src="https://images2.alphacoders.com/103/thumb-1920-1032002.jpg" alt=""  
+          onclick="openContent(event, 'Sherlock')">
+      </div>
+
+      <div class="tile" id="tab-5 hide-sm">
+          <img class="tile__img" src="http://images.amcnetworks.com/amc.com/wp-content/uploads/2012/06/BB-S5-Key-Art-1920-v3.jpg" alt=""  
+         onclick="openContent(event, 'BreakingBad')">
+      </div>
+      </div>
+      </div>
+
+
+</div>      
+</div>
+</div>
+
+
+
+  <!-- Tab Content 1 -->
+
+    <div class="tabcontent one" id="PeakyBlinders">
+    <div class="overlay" id="tab1" onclick='OFF1()'>
+    <iframe width="600" height="300" src="https://www.youtube.com/embed/oVzVdvGIC7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="inner_tab">
+    <h2>Peaky Blinders</h2>
+    <p>A notorious gang in 1919 Birmingham, England, is led by the fierce Tommy Shelby, a crime boss set on moving up in the world no matter the cost.
+    </p>
+
+    <button class="play" type="button" onclick="PLAY1()">Play</button>
+    </div>
+    </div>
+
+
+  <!-- Tab Content 2 -->
+
+    <div class="tabcontent two" id="Vikings">
+    <div class="overlay" id="tab2" onclick='OFF2()'>
+    <iframe width="600" height="300" src="https://www.youtube.com/embed/Auzs95InJzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="inner_tab">
+    <h2>Vikings</h2>
+    <p>This gritty drama charts the exploits of Viking hero Ragnar Lothbrok as he extends the Norse reach by challenging an unfit leader who lacks vision.</p>
+
+    <button class="play" type="button" onclick="PLAY2()">Play</button>
+    </div>
+    </div>
+
+
+  <!-- Tab Content 3 -->
+
+    <div class="tabcontent three" id="The100">
+    <div class="overlay" id="tab3" onclick='OFF3()'>
+    <iframe width="600" height="300" src="https://www.youtube.com/embed/ia1Fbg96vL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="inner_tab">
+    <h2>The 100</h2>
+    <p>A century after Earth was devastated by a nuclear apocalypse, 100 space station residents are sent to the planet to determine whether it's habitable.</p> 
+
+    <button class="play" type="button" onclick="PLAY3()">Play</button>
+    </div>
+    </div>
+
+
+  <!-- Tab Content 4 -->
+
+    <div class="tabcontent four" id="Sherlock">
+    <div class="overlay" id="tab4" onclick='OFF4()'>
+    <iframe width="600" height="300" src="https://www.youtube.com/embed/xK7S9mrFWL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="inner_tab">
+    <h2>Sherlock</h2>
+    <p>In this updated take on Sir Arthur Conan Doyle's beloved mystery tales, the eccentric sleuth prowls the streets of modern London in search of clues.</p>
+
+    <button class="play" type="button" onclick="PLAY4()">Play</button>
+    </div>
+    </div>
+
+
+  <!-- Tab Content 5 -->
+
+    <div class="tabcontent five" id="BreakingBad">
+    <div class="overlay" id="tab5" onclick='OFF5()'>
+    <iframe width="600" height="300" src="https://www.youtube.com/embed/HhesaQXLuRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="inner_tab">
+    <h2>Breaking Bad</h2>
+    <p>A terminally ill chemistry teacher teams with a former student to manufacture crystal meth to secure his family's future.</p>
+
+    <button class="play" type="button" onclick="PLAY5()">Play</button>
+    </div>
+    </div>
+
+
+
+
+
+
+<footer class="footer">
+      <p>Questions? Call 1-866-579-7172</p>
+      <div class="footer-cols">
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Ways To Watch</a></li>
+          <li><a href="#">Corporate Information</a></li>
+          <li><a href="#">Netflix Originals</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Terms Of Use</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Redeem Gift Cards</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Speed Test</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Media Center</a></li>
+          <li><a href="#">Buy Gift Cards</a></li>
+          <li><a href="#">Cookie Preferences</a></li>
+          <li><a href="#">Legal Notices</a></li>
+        </ul>
+      </div>
+
+    </footer>
+
+
+
+<script type="text/javascript" src="video.js"></script>
+</body>
+</html>
